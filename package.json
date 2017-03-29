@@ -1,0 +1,40 @@
+{
+    "name": "books-api",
+    "version": "1.0.0",
+    "description": "A study project using NodeJS + Express + ES6 + Mocha + Chai + Supertest.",
+    "main": "index.js",
+    "scripts": {
+        "start": "babel-node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "test-integration": "mocha --opts test/integration/mocha.opts test/integration/*.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hugodemoraes/books-api.git"
+    },
+    "keywords": [
+        "node",
+        "express",
+        "es6",
+        "mocha",
+        "chai",
+        "supertest"
+    ],
+    "author": "Hugo de Moraes <hugoc.bmoraes@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hugodemoraes/books-api/issues"
+    },
+    "homepage": "https://github.com/hugodemoraes/books-api#readme",
+    "dependencies": {
+        "babel": "^6.23.0",
+        "babel-cli": "^6.24.0",
+        "babel-preset-es2015": "^6.24.0",
+        "express": "^4.15.2"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "mocha": "^3.2.0",
+        "supertest": "^3.0.0"
+    }
+}
